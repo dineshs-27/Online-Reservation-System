@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="reservation_system">
+  <grid id="27dc6" binding="rspage" layout-manager="GridLayoutManager" row-count="13" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="663" height="471"/>
+    </constraints>
+    <properties/>
+    <border type="none">
+      <font/>
+    </border>
+    <children>
+      <component id="d919f" class="javax.swing.JTextField" binding="textname">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="29d92" class="javax.swing.JTextField" binding="textage">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="12"/>
+        </properties>
+      </component>
+      <component id="a476c" class="javax.swing.JTextField" binding="textphone">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="12"/>
+        </properties>
+      </component>
+      <component id="765b2" class="javax.swing.JTextField" binding="textemail">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="575cc" class="javax.swing.JComboBox" binding="combotn">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="12"/>
+          <model>
+            <item value="12632"/>
+            <item value="12605"/>
+            <item value="12633"/>
+            <item value="22651"/>
+            <item value="12641"/>
+          </model>
+        </properties>
+      </component>
+      <component id="b1300" class="javax.swing.JComboBox" binding="combotname">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="12" style="0"/>
+          <model>
+            <item value="Nellai Express"/>
+            <item value="Pallavan Express"/>
+            <item value="Kanyakumari Express"/>
+            <item value="Palani Express"/>
+            <item value="Thirukkural Express"/>
+          </model>
+        </properties>
+      </component>
+      <component id="56f79" class="com.toedter.calendar.JDateChooser" binding="dc" custom-create="true">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </component>
+      <component id="d9098" class="javax.swing.JTextField" binding="textstart">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="407a8" class="javax.swing.JTextField" binding="textend">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="11a8" class="javax.swing.JRadioButton" binding="rbmale">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="12" style="0"/>
+          <text value="Male"/>
+        </properties>
+      </component>
+      <component id="23d38" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="24" style="1"/>
+          <text value="Application Form"/>
+        </properties>
+      </component>
+      <component id="8566b" class="javax.swing.JButton" binding="buttonbook">
+        <constraints>
+          <grid row="12" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="Book"/>
+        </properties>
+      </component>
+      <component id="286c8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="Name : "/>
+        </properties>
+      </component>
+      <component id="a63ec" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="Age : "/>
+        </properties>
+      </component>
+      <component id="584d5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="Gender : "/>
+        </properties>
+      </component>
+      <component id="3e7b8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="Phone : "/>
+        </properties>
+      </component>
+      <component id="a0cf9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="Email : "/>
+        </properties>
+      </component>
+      <component id="2143e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="Train Number : "/>
+        </properties>
+      </component>
+      <component id="9c951" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="Train Name : "/>
+        </properties>
+      </component>
+      <component id="33fed" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="Class Type : "/>
+        </properties>
+      </component>
+      <component id="6ad50" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="Date Of Journey : "/>
+        </properties>
+      </component>
+      <component id="d2c8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="From : "/>
+        </properties>
+      </component>
+      <component id="59511" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="16" style="1"/>
+          <text value="To : "/>
+        </properties>
+      </component>
+      <component id="c1116" class="javax.swing.JRadioButton" binding="rbfemale">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="12" style="0"/>
+          <text value="Female"/>
+        </properties>
+      </component>
+      <component id="16aef" class="javax.swing.JRadioButton" binding="rbfc">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="12" style="0"/>
+          <text value="First Class"/>
+        </properties>
+      </component>
+      <component id="f9315" class="javax.swing.JRadioButton" binding="rbsc">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="12" style="0"/>
+          <text value="Second Class"/>
+        </properties>
+      </component>
+      <component id="dc144" class="javax.swing.JRadioButton" binding="rbslp">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="12" style="0"/>
+          <text value="Sleeper"/>
+        </properties>
+      </component>
+      <grid id="f045b" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="7" row-span="13" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="94426" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="13" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
